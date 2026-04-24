@@ -44,12 +44,11 @@ export function Director() {
             }`}
           >
             <div className="relative aspect-[3/4] overflow-hidden rounded-sm shadow-xl">
-              {/* NOTE: Place an actual vertical picture of Carla Vidal here */}
               <Image
-                src="/images/director-placeholder.jpg"
+                src="/images/carla-weliwen.jpg"
                 alt={t.director.imageAlt}
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               {/* Optional overlay gradient for premium feel */}

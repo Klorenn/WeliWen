@@ -23,6 +23,9 @@ export function Header() {
   const navLinks = [
     { href: "#inicio", label: t.nav.inicio },
     { href: "#nosotros", label: t.nav.nosotros },
+    { href: "#directora", label: t.nav.directora },
+    { href: "#montajes", label: t.nav.montajes },
+    { href: "#hitos", label: t.nav.hitos },
     { href: "#galeria", label: t.nav.galeria },
     { href: "#contacto", label: t.nav.contacto },
   ]

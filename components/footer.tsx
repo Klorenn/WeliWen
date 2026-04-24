@@ -35,10 +35,10 @@ export function Footer() {
 
           {/* Email */}
           <a
-            href="mailto:balletfkloricoweliwenchile@gmail.com"
+            href="mailto:balletfolkloricoweliwenchile@gmail.com"
             className="mt-3 block text-sm tracking-wide text-background/70 transition-colors hover:text-background"
           >
-            balletfkloricoweliwenchile@gmail.com
+            balletfolkloricoweliwenchile@gmail.com
           </a>
 
           {/* Phone */}

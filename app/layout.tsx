@@ -19,6 +19,28 @@ export const metadata: Metadata = {
   title: 'Weliwen Ballet Folklórico Chile | Temuco',
   description: 'Academia y elenco de danza folclórica chilena en Temuco. Descubre la pasión por el folclor y la tradición de la Araucanía.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Weliwen | Ballet Folklórico Temuco — Chile',
+    description: 'Academia y elenco de danza folclórica chilena en Temuco. Descubre la pasión por el folclor y la tradición de la Araucanía.',
+    url: 'https://weliwen.cl',
+    siteName: 'Weliwen Ballet Folklórico',
+    images: [
+      {
+        url: '/opengraph-image.jpg', // Renombra tu imagen y colócala en /public/opengraph-image.jpg
+        width: 1200,
+        height: 630,
+        alt: 'Weliwen Ballet Folklórico Temuco - Chile',
+      },
+    ],
+    locale: 'es_CL',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Weliwen | Ballet Folklórico Temuco — Chile',
+    description: 'Academia y elenco de danza folclórica chilena en Temuco. Descubre la pasión por el folclor y la tradición de la Araucanía.',
+    images: ['/opengraph-image.jpg'],
+  },
   icons: {
     icon: [
       {
